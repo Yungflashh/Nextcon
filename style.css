@@ -1,0 +1,888 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Inter;
+
+}
+.menu{
+    display: none;
+}
+.greenText{
+    color: #4CAF4F;
+
+}
+
+p{
+    color: #717171;
+
+}
+
+.whiteText{
+    color: white;
+}
+
+.greenBg{
+    background: #4CAF4F;
+
+}
+.greyBg{
+    background: #F5F7FA;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+.navLinks{
+    display: flex;
+    gap: 30px;
+
+}
+
+.navBtn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navBtn > :nth-child(2){
+    width: 91px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px 0px 0px 0px;
+    border: none;
+
+}
+
+.main{
+    
+    height: 610px;
+    
+}
+.heroSection{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    
+    margin-top: 100px;
+}
+
+.heroText{
+    width: 657px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 32px;
+
+
+}
+
+.heroText h2{
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+
+}
+
+.heroText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+
+.heroText button{
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px 0px 0px 0px;
+    border: none;
+    
+}
+
+.dot{
+    display: flex;
+    justify-content: center;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.client h3 {
+    
+
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+
+}
+
+.client p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+
+}
+
+.clientIcons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.communityText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 30px; */
+}
+
+.communityText h3{
+    width: 542px;
+height: 88px;
+
+
+    
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+text-align: center;
+margin: 50px 0px 0px 0px;
+
+
+}
+
+.communityText p{
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 15px;
+
+
+}
+
+.clientIcon2{
+    display: flex;
+    /*   */
+    height: 280px;
+    padding: 0px 144px 0px 144px;
+    justify-content: space-between;
+
+
+}
+
+.sponsors{
+    margin: 70px 0px;
+}
+
+.clients{
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+
+
+
+}
+.clients img{
+    width: 65px;
+height: 56px;
+
+}
+
+.clients h4{
+    width: 267px;
+    height: 72px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+.clients p{
+    width: 251px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.rafiki{
+    /* width: Fixed (1,440px)px;
+height: 433px; */
+display: flex;
+padding: 0px 144px 0px 144px;
+margin-top: 40px;
+
+justify-content: space-between;
+
+
+}
+
+.rafikiImage{
+    width: 441.53px;
+    height: 328.99px;
+}
+
+.rafikiText{
+    width: 661px;
+    height: 268px;
+}
+
+.rafikiText h3{
+    width: 601px;
+height: 88px; 
+font-size: 30px;
+font-weight: 600;
+line-height: 44px;
+
+}
+
+.rafikiText p{
+
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+width: 500px;
+height: 80px;
+text-align: justify;
+opacity: 0px;
+}
+
+.rafikiText button{
+width: 151px;
+height: 52px;
+padding: 14px 32px 14px 32px;
+border-radius: 4px 0px 0px 0px;
+border: none;
+margin: 70px 0px;
+
+
+
+}
+
+.testimonials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background: #F5F7FA;
+    padding: 30px;
+
+    
+}
+
+.testimonialsText{
+    width: 540px;
+    height: 120px;
+    margin-top: 30px;
+
+}
+
+.testimonialsText h3{
+  
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 408px;
+    height: 88px;
+    
+
+    /* text-align: left; */
+
+
+}
+
+.testimonialsText p{
+  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.testimonialsIconDiv{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 160px;
+   
+
+   
+}
+
+.testimonialsIcon{
+    width: 540px;
+    height: 160px;
+    display: flex;
+
+}
+
+.testimonialsIcon img{
+    width: 46.78px;
+height: 31.12px;
+/* top: 8.24px;
+left: 0.75px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px; */
+
+}
+
+.tIcon{
+    display: flex;
+}
+
+.tText{
+    display: flex;
+    flex-direction: column;
+    width: 191px;
+    height: 60px;
+
+
+}
+
+.tText h3{
+    width: 191px;
+    height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+
+
+}
+
+.tText p{
+    width: 191px;
+    height: 24px;
+}
+
+
+.tesla{
+    display: flex;
+    /* width: Fixed (1,440px)px; */
+height: 390px;
+padding: 32px 80px;
+margin-top: 120px;
+gap: 30px;
+justify-content: space-between;
+
+}
+
+.teslaText>:nth-child(1){
+    width: 748px;
+    height: 168px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    text-align: justify;
+   
+}
+
+.teslaText >:nth-child(2){
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+margin-top: 25px;
+}
+
+.teslaText >:nth-child(3){
+    width: 748px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+
+}
+
+.teslaIcon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.exportCustomers{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.exportCustomers p{
+    height: 28px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.imageTestimonials{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.imageTextTestimonials{
+    width: Fixed (1,110px)px;
+    display: flex;
+    flex-direction: column;
+    height:124px;
+    gap: 8px;
+    align-items: center;
+}
+
+.imageTextTestimonials h3{
+    
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    /* text-align: center; */
+
+}
+
+.imageTextTestimonials p{
+    width: 628px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+
+.testimonialImages{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.timg{
+    position: relative;
+}
+
+.ttext{
+    position: absolute;
+    width: 317px;
+    height: 100px;
+    padding: 16px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    bottom: -50px;
+    left: 25px;
+}
+
+.ttext p{
+    /* width: 285px; */
+    height: 64px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    
+
+}
+.ttextt{
+    position: absolute;
+    width: 317px;
+    height: 100px;
+    padding: 12px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    bottom: -50px;
+    left: 25px;
+}
+
+.ttextt p{
+    width: 275px;
+    height: 64px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 15px;
+    
+
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer1 h3{
+    width: 607px;
+    height: 152px;
+font-size: 54px;
+font-weight: 600;
+line-height: 76px;
+text-align: center;
+
+}
+
+.footer1 button{
+    width:178px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.footer2{
+display: flex;
+height: 228px;
+padding: 64px 130px;
+gap: 80px;
+background: #263238;
+justify-content: space-between;
+
+}
+
+.foooterLogo{
+  
+      display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foooterLogo p{
+    width: 350px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+   
+   
+}
+
+.footericons{
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+    height: 32px;
+    /* gap: 16px; */
+    /* opacity: 0px; */
+    
+}
+
+.footericons img{
+    width: 32px;
+    height: 32px;
+    color:white;
+
+
+}
+
+.round{
+    background: #322e2e;
+    height: 60%;
+    border-radius: 60%;
+
+}
+
+.footerLinks{
+    /* width:3000px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* border: 3px solid yellow; */
+}
+
+.footerLinks >:nth-child(1){
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #F5F7FA;
+  
+
+}
+
+.footerLinks >*:not(:first-child) {
+    /* Styles for all children except the first */
+    color: #F5F7FA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+   
+    
+}
+
+
+/*  */
+
+@media (max-width:1215px){
+
+    body{
+        /* border: 3px solid green; */
+    }
+    
+.tesla{
+    display: flex;
+    
+    /* width: Fixed (1,440px)px; */
+height: 390px;
+margin-top: 120px;
+gap: 30px;
+/* border: 3px solid indigo; */
+
+
+}
+.teslaText>:nth-child(1){
+    width: 548px;
+    height: 168px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    text-align: justify;
+   
+}
+
+.teslaIcon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 690px
+}
+
+.clients{
+    width: 299px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    /* border: 3px solid green; */
+
+
+
+}
+
+.clientIcon2{
+    padding: 0px;
+    /* border: 3px solid red; */
+}
+
+.rafiki{
+    padding: 0px;
+}
+
+
+}
+
+/* Mobile styling */
+
+@media (max-width:1000px) {
+
+    nav{
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .navLinks,.navBtn{
+        display: none;
+    }
+
+    .heroSection{
+        width: 100%;
+    }
+
+    .navBtn > :nth-child(2){
+        width: 91px;
+        height: 40px;
+        gap: 10px;
+        border-radius: 6px 0px 0px 0px;
+        border: none;
+    
+    }
+
+    .clientIcon2{
+        
+        justify-content: center;
+        padding: 0px;
+        margin: 80px 80px;
+        text-align: center;
+        color: 4px solid pink;
+    }
+    .clients{
+        /* border: 3px solid yellow; */
+        width: 30%;
+    }
+
+    .client img{
+        width: 30%;
+        border: 3px solid red;
+    }
+
+    .rafiki{
+        /* border: 3px solid black; */
+    }
+
+    .rafiki h3{
+        width: 90%;
+    }
+    .rafiki p{
+        width: 90%;
+    }
+    .testimonialImages{
+        width: 0px;
+        /* border: 3px solid pink; */
+    }
+
+    .testimonialsText{
+        margin-top: 30px;
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    .testimonialsText h3{
+        width: 100%;
+        font-size: 18px;
+        
+    }
+
+    .testimonialsIconDiv{
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    .testimonialsIcon h3{
+        font-size: 18px;
+    }
+
+    
+    .tesla{
+        display: none;
+    }
+
+    .testimonials{
+        width: 100%;
+        /* border: 1px solid brown; */
+        justify-content: space-between;
+        padding: 0px
+    }
+
+    .tIcon img{
+        width: 30px;
+    }
+
+    
+    /* .rafiki{
+        display: none;
+    }
+    .imageTestimonials{
+        display: none;
+    } */
+    .imageTestTestimonials{
+        width: 100%;
+        
+        /* border: 10px solid purple; */
+    }
+
+    .imageTextTestimonials{
+        margin-top: 100px;
+    }
+    .imageTextTestimonials h3{
+        font-size: 50px;
+    }
+    .imageTextTestimonials p{
+        font-size: 18px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .testimonialImages{
+        width: 100%;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    footer{
+        width: 100%;
+        /* border: 2px solid red; */
+        justify-content: center;
+    }
+
+    .footer1{
+        /* border: 3px solid yellow; */
+    }
+
+    .footer1 h3{
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer1 button{
+        margin-bottom: 20px;
+    }
+
+    .footer2{
+        padding: 10px;
+    }
+
+    .footerLinks > :nth-child(1){
+        width: 100%;
+        font-size: 15px;
+        /* border: 3px solid pink; */
+    }
+
+    .menu{
+        display: block;
+    }
+
+    
+}
