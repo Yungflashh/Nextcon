@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../asset"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nextcon"
+	}
+}
