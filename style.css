@@ -886,3 +886,264 @@ gap: 30px;
 
     
 }
+
+@media (max-width:700px) {
+    
+    .main{
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    .heroSection{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+
+    .heroText h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .heroPic{
+        /* border: 5px solid#263238; */
+    }
+
+    .heroText{
+        /* border: 5px solid purple; */
+        width: 100%;
+    }
+    .heroText p{
+        font-size: 20px;
+        /* padding-left: 2px; */
+        /* text-align: center; */
+        width: 100%;
+        /* border: 3px solid pink; */
+    }
+
+    .heroText button{
+        font-size: 10px;
+        color: white;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .heroSection img{
+        width:100%
+    }
+
+    .dot{
+        width: 100%;
+        /* border: 3px solid blue; */
+        margin-bottom: 100px;
+    }
+    
+    .sponsors{
+        flex-direction: column;
+        /* border: 3px solid red; */
+        margin-top: 100px;
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    .client{
+        /* border: 10px solid green; */
+        margin-top: 800px;
+        font-size: 20px;
+    }
+
+    .clientIcons{
+        /* border: 14px solid blue; */
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+        
+        /* margin-top: 400px; */
+    }
+
+    .clientIcons img{
+width: 30px;
+margin-top: 200px;
+    }
+
+    .clientIcon2{
+        /* flex-direction: column; */
+    }
+
+    .clientIcon2 h4{
+        font-size: 20px;
+    }
+
+    .clients{
+        /* display: none; */
+        /* border: 3px solid black; */
+        flex-direction: column;
+    }
+
+    .communityText{
+         display: none;
+        /* border: 9px solid blue; */
+    }
+
+    .sponsors h4{
+       
+        font-size: 18px;
+    }
+    .clientIcon2{
+        flex-direction: column;
+        margin-top: 300px;
+        align-items: center;
+    }
+
+    .sponsors p{
+       
+        font-size: 18px;
+    }
+
+    .rafiki{
+        display: none;
+        flex-direction: column;
+        margin-top: 300px;
+        width: 100%;
+         /* border: 4px solid red; */
+    }
+
+    .rafikiImage{
+       width: 100%;
+        /* border: 4px solid blue; */
+        
+    }   
+
+    .rafikiText h3{
+        font-size: 20px;
+        width: 60%;
+        /* border: 4px solid green; */
+    }
+
+    .rafikiText p{
+        width: 58%;
+        /* border: 5px solid red; */
+    }
+
+    .testimonials{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 200px;
+        /* border: 5px solid brown; */
+        text-align: center;
+    }
+    
+    .imageTextTestimonials{
+        /* display: none; */
+        flex-direction: column;
+        margin-bottom: 200px;
+        width: 100%;
+    }
+
+    .imageTextTestimonials h3{
+        font-size: 30px;
+    }
+
+    .imageTextTestimonials p{
+        font-size: 15px;
+        /* border: 8px solid blue; */
+    }
+
+    .timg{
+        margin-bottom: 80px;
+    }
+    
+    .testimonials{
+        /* display: none; */
+        margin-top: 500px;
+
+    }
+
+    .testimonialsText{
+        align-items: center;
+        /* margin-left: 20px; */
+        width: 100%;
+        /* border: 3px solid blue; */
+    }
+
+    .testimonialsText p{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .testimonialsIconDiv{
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    footer{
+        /* display: none; */
+        width: 100%;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+
+        /* border: 4px solid red; */
+    }
+
+    .footer1{
+        /* border: 3px solid yellow; */
+    }
+
+    .footer1 h3{
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer1 button{
+        margin-bottom: 20px;
+    }
+
+    .footer2{
+        width: 94%;
+        /* padding: 10px; */
+        /* border: 4px solid blue; */
+    }
+
+    .foooterLogo{
+        width:20%;
+        /* border : 5px solid blue; */
+    }
+    
+    .foooterLogo img {
+        width: 60%;
+    }
+
+    .foooterLogo p{
+        font-size: 10px;
+    }
+
+    .footericons{
+        width: 60%;
+    }
+    .footerLinks{
+        /* border: 5px solid red; */
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .footerLinks > :nth-child(1){
+        width: 100%;
+        font-size: 10px;
+        /* border: 3px solid pink; */
+    }
+
+    .footerLinks >*:not(:first-child) {
+        width: 100%;
+        font-size: 10px;
+        /* border: 3px solid pink; */
+    }
+
+
+    
+    
+    
+}
